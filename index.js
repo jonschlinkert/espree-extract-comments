@@ -37,6 +37,5 @@ module.exports = function(str) {
     // as leadingComments and trailingComments
     attachComment: true,
   });
-
   return ast.comments;
 };

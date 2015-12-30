@@ -1,6 +1,6 @@
 {
   "name": "espree-extract-comments",
-  "description": "Extract code comments from string or from a glob of files using espree.",
+  "description": "Uses espree to extract JavaScript code comments from a string. Returns an array of comment objects, with line, column, index, comment type and comment string.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/espree-extract-comments",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
