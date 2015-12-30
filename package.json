@@ -1,0 +1,54 @@
+{
+  "name": "espree-extract-comments",
+  "description": "Extract code comments from string or from a glob of files using espree.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/espree-extract-comments",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/espree-extract-comments",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/espree-extract-comments/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "espree": "^2.2.5"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.4"
+  },
+  "keywords": [
+    "block",
+    "code",
+    "comment",
+    "comments",
+    "context",
+    "espree",
+    "extract",
+    "glob",
+    "javascript",
+    "parse"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "esprima-extract-comments",
+        "extract-comments",
+        "js-comments",
+        "parse-comments"
+      ]
+    },
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "layout": "default"
+  }
+}
