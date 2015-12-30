@@ -1,11 +1,10 @@
 # espree-extract-comments [![NPM version](https://img.shields.io/npm/v/espree-extract-comments.svg)](https://www.npmjs.com/package/espree-extract-comments) [![Build Status](https://img.shields.io/travis/jonschlinkert/espree-extract-comments.svg)](https://travis-ci.org/jonschlinkert/espree-extract-comments)
 
-> Extract code comments from string or from a glob of files using espree.
+> Uses espree to extract JavaScript code comments from a string. Returns an array of comment objects, with line, column, index, comment type and comment string.
 
 - [Install](#install)
 - [API](#api)
 - [Example results](#example-results)
-- [API](#api-1)
 - [Related projects](#related-projects)
 - [Running tests](#running-tests)
 - [Contributing](#contributing)
